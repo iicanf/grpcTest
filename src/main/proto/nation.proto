@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+enum Nation {
+    CHINA = 0;
+    JAPAN = 1;
+    AMERICA = 2;
+    CANADA = 3;
+    RUSSIA = 4;
+    INDIA = 5;
+    KORORA = 6;
+}

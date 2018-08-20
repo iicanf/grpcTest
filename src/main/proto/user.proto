@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+import "nation.proto";
+
+message User {
+    string name = 1;
+    uint32 age = 2;
+    bool is_delete = 3;
+    google.protobuf.Timestamp insert_time = 4;
+    google.protobuf.Timestamp update_time = 5;
+    string phone = 6;
+    Nation nation = 7;
+}
