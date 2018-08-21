@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+option java_package = "com.iicanf.model.User";
+
 import "google/protobuf/timestamp.proto";
 import "nation.proto";
 

@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+option java_package = "com.iicanf.model.enums.Nation";
+
 enum Nation {
     CHINA = 0;
     JAPAN = 1;
